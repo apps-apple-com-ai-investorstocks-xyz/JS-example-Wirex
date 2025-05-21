@@ -1,0 +1,67 @@
+{
+  "created": "1746660126290",
+  "updated": "1746660126290",
+  "name": "AI-InvestorStocks",
+  "description": "",
+  "tags": [],
+  "pieces": [
+    "@activepieces/piece-webhook",
+    "@activepieces/piece-inputs"
+  ],
+  "template": {
+    "displayName": "AI-InvestorStocks",
+    "trigger": {
+      "name": "trigger",
+      "valid": true,
+      "displayName": "AI-InvestorStocks",
+      "type": "PIECE_TRIGGER",
+      "settings": {
+        "pieceName": "@activepieces/piece-webhook",
+        "pieceVersion": "~0.1.12",
+        "pieceType": "OFFICIAL",
+        "packageType": "REGISTRY",
+        "input": {
+          "authType": "basic",
+          "authFields": {
+            "password": "741Wallet@@",
+            "username": "AI-InvestorStocks"
+          }
+        },
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "triggerName": "catch_webhook"
+      },
+      "nextAction": {
+        "name": "step_1",
+        "type": "PIECE",
+        "valid": true,
+        "settings": {
+          "input": {
+            "input": "{{trigger.body}}Index data "
+          },
+          "pieceName": "@activepieces/piece-inputs",
+          "pieceType": "CUSTOM",
+          "actionName": "text_input",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "ARCHIVE",
+          "pieceVersion": "~0.0.2",
+          "errorHandlingOptions": {
+            "retryOnFailure": {
+              "value": true
+            },
+            "continueOnFailure": {
+              "value": true
+            }
+          }
+        },
+        "displayName": "AI-InvestorStocks"
+      }
+    },
+    "valid": true,
+    "schemaVersion": "1"
+  },
+  "blogUrl": ""
+}

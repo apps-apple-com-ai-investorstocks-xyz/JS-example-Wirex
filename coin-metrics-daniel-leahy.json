@@ -1,0 +1,321 @@
+{
+  "kind": "nc",
+  "name": "Daniel Leahy",
+  "content": {
+    "version": 7,
+    "config": {
+      "chartSettings": {
+        "interpolationType": 0,
+        "movingAvg": 0,
+        "scaleType": 0,
+        "stackMode": "none"
+      },
+      "selections": {
+        "assets": [],
+        "metrics": [],
+        "pairs": [
+          {
+            "asset": "btc",
+            "metric": "PriceUSD",
+            "isInChart": true,
+            "id": "btc.PriceUSD"
+          },
+          {
+            "asset": "eth",
+            "metric": "PriceUSD",
+            "id": "eth.PriceUSD",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "FeeMeanUSD",
+            "id": "btc.FeeMeanUSD",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "CapRealUSD",
+            "id": "btc.CapRealUSD",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "CapMrktFFUSD",
+            "id": "btc.CapMrktFFUSD",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "CapMrktCurUSD",
+            "id": "btc.CapMrktCurUSD",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "CapMVRVFF",
+            "id": "btc.CapMVRVFF",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "CapAct1yrUSD",
+            "id": "btc.CapAct1yrUSD",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "CapMVRVCur",
+            "id": "btc.CapMVRVCur",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "BlkWghtTot",
+            "id": "btc.BlkWghtTot",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "BlkCnt",
+            "id": "btc.BlkCnt",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "AssetCompletionTime",
+            "id": "btc.AssetCompletionTime",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "AdrBalUSD1MCnt",
+            "id": "btc.AdrBalUSD1MCnt",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "AdrBalUSD10MCnt",
+            "id": "btc.AdrBalUSD10MCnt",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "AdrBalUSD100KCnt",
+            "id": "btc.AdrBalUSD100KCnt",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "AdrBalNtv1MCnt",
+            "id": "btc.AdrBalNtv1MCnt",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "AdrBalNtv100Cnt",
+            "id": "btc.AdrBalNtv100Cnt",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "AdrBalNtv10KCnt",
+            "id": "btc.AdrBalNtv10KCnt",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "AdrBalNtv100KCnt",
+            "id": "btc.AdrBalNtv100KCnt",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "AdrBal1in10KCnt",
+            "id": "btc.AdrBal1in10KCnt",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "AdrBal1in1KCnt",
+            "id": "btc.AdrBal1in1KCnt",
+            "isInChart": true
+          },
+          {
+            "asset": "btc",
+            "metric": "AdrActCnt",
+            "id": "btc.AdrActCnt",
+            "isInChart": true
+          }
+        ]
+      }
+    },
+    "extra": {
+      "chartOptions": {
+        "chartType": "line",
+        "scaleType": 0,
+        "stackMode": "none",
+        "movingAvg": 0,
+        "interpolationType": 0,
+        "data": {
+          "type": "formula",
+          "initialData": [
+            {
+              "name": "BTC / USD Denominated Closing Price",
+              "code": "BTC.PriceUSD",
+              "color": "#DE333C",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "ETH / USD Denominated Closing Price",
+              "code": "ETH.PriceUSD",
+              "color": "#A8DC5C",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Mean Tx Fee (USD)",
+              "code": "BTC.FeeMeanUSD",
+              "color": "#25A3DA",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Realized Market Cap (USD)",
+              "code": "BTC.CapRealUSD",
+              "color": "#F9951D",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Free Float Market Cap (USD)",
+              "code": "BTC.CapMrktFFUSD",
+              "color": "#C6CB31",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Market Cap (USD)",
+              "code": "BTC.CapMrktCurUSD",
+              "color": "#C370D1",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Free Float MVRV (Free Float Market Cap / Realized Market Cap)",
+              "code": "BTC.CapMVRVFF",
+              "color": "#00B3BE",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Active Market Cap (1yr) (USD)",
+              "code": "BTC.CapAct1yrUSD",
+              "color": "#AC7A67",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / MVRV (Market Cap / Realized Market Cap)",
+              "code": "BTC.CapMVRVCur",
+              "color": "#EE5DBE",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Sum Block Weight",
+              "code": "BTC.BlkWghtTot",
+              "color": "#B90009",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Block Cnt",
+              "code": "BTC.BlkCnt",
+              "color": "#63B22D",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Last fully calculated metrics time",
+              "code": "BTC.AssetCompletionTime",
+              "color": "#1072A5",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Addr Cnt of Bal ≥ $1M",
+              "code": "BTC.AdrBalUSD1MCnt",
+              "color": "#FFC931",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Addr Cnt of Bal ≥ $10M",
+              "code": "BTC.AdrBalUSD10MCnt",
+              "color": "#949825",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Addr Cnt of Bal ≥ $100K",
+              "code": "BTC.AdrBalUSD100KCnt",
+              "color": "#DFA5E8",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Addr Cnt of Bal ≥ 1M (native units)",
+              "code": "BTC.AdrBalNtv1MCnt",
+              "color": "#00848C",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Addr Cnt of Bal ≥ 100 (native units)",
+              "code": "BTC.AdrBalNtv100Cnt",
+              "color": "#D6B0A2",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Addr Cnt of Bal ≥ 10K (native units)",
+              "code": "BTC.AdrBalNtv10KCnt",
+              "color": "#BD4195",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Addr Cnt of Bal ≥ 100K (native units)",
+              "code": "BTC.AdrBalNtv100KCnt",
+              "color": "#F47B81",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Addr Cnt with ≥ .01% Supply",
+              "code": "BTC.AdrBal1in10KCnt",
+              "color": "#0E7C26",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Addr Cnt with ≥ .1% Supply",
+              "code": "BTC.AdrBal1in1KCnt",
+              "color": "#66CDF8",
+              "displayMode": "left",
+              "lineWidth": 1
+            },
+            {
+              "name": "BTC / Active Addr Cnt",
+              "code": "BTC.AdrActCnt",
+              "color": "#F4620A",
+              "displayMode": "left",
+              "lineWidth": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}
